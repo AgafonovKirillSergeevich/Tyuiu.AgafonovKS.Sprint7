@@ -29,22 +29,11 @@ namespace Tyuiu.AgafonovKS.Sprint7.Project.V14
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBoxAvatar_AKS = new System.Windows.Forms.PictureBox();
             this.buttonOK_AKS = new System.Windows.Forms.Button();
             this.labelInfo_AKS = new System.Windows.Forms.Label();
+            this.pictureBoxAvatar_AKS = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatar_AKS)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBoxAvatar_AKS
-            // 
-            this.pictureBoxAvatar_AKS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBoxAvatar_AKS.ImageLocation = "C:\\Users\\Kirya\\source\\repos\\Tyuiu.AgafonovKS.Sprint7\\Avatar.jpg";
-            this.pictureBoxAvatar_AKS.Location = new System.Drawing.Point(12, 12);
-            this.pictureBoxAvatar_AKS.Name = "pictureBoxAvatar_AKS";
-            this.pictureBoxAvatar_AKS.Size = new System.Drawing.Size(150, 200);
-            this.pictureBoxAvatar_AKS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxAvatar_AKS.TabIndex = 0;
-            this.pictureBoxAvatar_AKS.TabStop = false;
             // 
             // buttonOK_AKS
             // 
@@ -66,6 +55,17 @@ namespace Tyuiu.AgafonovKS.Sprint7.Project.V14
             this.labelInfo_AKS.Text = "Разработчик: Агафонов К.С.\r\nгруппа ИИПБ-23-1\r\n\r\nПрограмма разработана в рамках из" +
     "учения языка С#\r\n\r\nТюменский индустриальный университет (с)2023\r\nВысшая школа ци" +
     "фровых технологий (с)2023\r\n";
+            // 
+            // pictureBoxAvatar_AKS
+            // 
+            this.pictureBoxAvatar_AKS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBoxAvatar_AKS.ImageLocation = "C:\\Users\\Kirya\\source\\repos\\Tyuiu.AgafonovKS.Sprint7\\Avatar.jpg";
+            this.pictureBoxAvatar_AKS.Location = new System.Drawing.Point(12, 12);
+            this.pictureBoxAvatar_AKS.Name = "pictureBoxAvatar_AKS";
+            this.pictureBoxAvatar_AKS.Size = new System.Drawing.Size(150, 200);
+            this.pictureBoxAvatar_AKS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAvatar_AKS.TabIndex = 0;
+            this.pictureBoxAvatar_AKS.TabStop = false;
             // 
             // FormAbout
             // 
